@@ -1,0 +1,88 @@
+/* CSS Document */
+
+.ticker-admin {
+  background: #165973;
+padding:10px;
+color:#fff;
+width:50%;
+-webkit-box-shadow: -5px 10px 24px 3px rgba(0,0,0,0.53);
+-moz-box-shadow: -5px 10px 24px 3px rgba(0,0,0,0.53);
+box-shadow: -5px 10px 24px 3px rgba(0,0,0,0.53);
+
+}
+
+.ticker-admin h2 {
+
+  color: #fff;
+  padding: 10px;
+  padding-left:20px;
+  background: #006288;
+ 
+  font-size: 18px
+}
+.ticker-admin h3 {color: #BBDD69;}
+.ticker-admin h2:before {
+content:url('../img/setting-icon.png') ;
+padding: 15px;
+}
+
+.ticker-admin .form-table th, .form-wrap label {
+color:#fff;
+padding:5px;
+  line-height: 4.3;
+  font-weight: normal;
+  font-size: 14px;
+  width: 60%;
+}
+ .ticker-admin .form-table td{
+  color: #FFEF46;
+  }
+.ticker-admin .button-primary
+
+{
+background:#052E3D;
+float:right;
+}
+.ticker-admin .button-primary:hover
+
+{
+background:#9DE432;
+color:#000;
+
+}
+
+.ticker-admin div.updated {
+  margin: 5px 0 15px;
+  background: #93D213;
+  color: #000;
+    border-left: 5px solid #FFDF62;
+  }
+
+
+.ticker-admin .form-table tr {
+  border: 1px solid #024661;
+   
+
+}
+
+.ticker-admin input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+  -webkit-box-shadow: 0px -2px 12px -2px rgba(0,0,0,0.53);
+-moz-box-shadow: 0px -2px 12px -2px rgba(0,0,0,0.53);
+box-shadow: 0px -2px 12px -2px rgba(0,0,0,0.53);
+
+}
+ 
+.ticker-admin input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
